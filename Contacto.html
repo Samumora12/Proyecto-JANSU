@@ -3,51 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contactos</title>
+    <link rel="shortcut icon" href="Imagen/logo-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="Contacto.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
-    <header>
-        <div class="encabezado">
-            <div class="titulo">
-              <img src="Imagen/logo-removebg-preview.png" alt="">
+    
+    <section class="barraa">
+        <div class="arriba">
+        <p class="logo"> Taekwondo <span>Jansu</span></p>
+       <p style=" font-size: 20px;">Encaminate en la sabiduria</p>
+        </div>
+      
+      <!-- Para la barra de navegación -->
+         
+        <hr style="color: rgb(255, 255, 255); padding: 1px;">
+        <section class="barra">
+       <a href="Inicio.html">Inicio</a>
+      <a href="Servicios.html">Servicios</a>
+      <a href="quienes.html">Quienes somos</a>
+      </section>
+      </section>
+
+    <div class="content">
+
+        <h1 class="logo">Contac<span>tos</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contacto</h3>
+                <form action="">
+                    <p>
+                        <label>Nombres y apellidos</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero de telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>¿Clase que te llamo la atención?</label>
+                        <input type="datetime" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Dejanos saber si estas interesado</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
             </div>
-            <nav>
-              <a href="Interfaz.html">Inicio</a>
-              <a href="Servicios.html">Servicio</a>
-              <a href="quienes.html">¿Quienés somos?</a>
-            </nav>
-           </div>
-    </header>
+            <div class="contact-info">
+                <h4>Información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Estadio Atanasio Girardot</li>
+                    <li><i class="fas fa-phone"></i>321 3351807</li>
+                    <li><i class="fas fa-envelope-open-text"></i>slondono12@cesde.net</li>
+                </ul>
+                <p>Comprometidos siempre con nuestros deportistas y las personas que quieren mejorar sus vidas.</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <footer class="footer">
+        <ul class="social-icon">
+          <li class="icon-elem">
+            <a href="https://youtube.com/@taekwondojansu958?si=Q69HJK8iVvkFO3BQ" target="_blank" class="icon">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+          <li class="icon-elem">
+            <a href="https://www.instagram.com/taekwondo_jansu?igsh=YXp2MTltcHdoa2F6" target="_blank" class="icon">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="icon-elem">
+            <a href="https://www.facebook.com/tkdjansu/about/" target="_blank" class="icon">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        <p class="text">@2024-2025 | Todos los derechos reservados</p>
+      </footer>
+      </div>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+      
+
 </body>
-<main>
-
-
-  <!--  Parte del formulario -->
-
-  <section class="section">
-    <div class="titulo"> <h2>Compartanos su información, por favor.</h2> </div>
-    <input class="controls"  type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">  
-    <input class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese sus Apellidos">
-    <input  class="controls"  type="date" min="1960-01-01" value="1960-01-01">
-    <input  class="controls"  type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo">
-    <input  class="controls"  type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su Contraseña">
-    <textarea  class="controls"  name="Formulario" id="Formulario" placeholder="Dejanos saber si está interesado"></textarea>
-  <p>Estoy de acuerdo con los <a href="#">Terminos y condiciones</a> </p>
-        <input class="boton" type="submit" placeholder="Entrar">
-</section>
-</main>
-
-<footer>
-  <div class="footer">
-    <div class="parte1">
-  <p>Samuel Londoño mora</p>
-  <p> Proyecto Integrador</p>
-</div>
-<div class="parte2">
-  <a href="https://www.facebook.com/tkdjansu/about/" target="_blank"> <img src="Imagen/facebook.png" alt=""> </a> 
-  <a href="https://www.instagram.com/taekwondo_jansu?igsh=YXp2MTltcHdoa2F6" target="_blank"> <img src="Imagen/instagram.png" alt=""> </a> 
-</div>
-  </div>
-</footer>
 </html>
